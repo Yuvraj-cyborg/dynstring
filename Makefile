@@ -1,2 +1,2 @@
 all: 
-	gcc -Wall -Wextra main.c -o main && ./main
+	gcc -Wall -Wextra main.c dynstr.c -o main && ./main
